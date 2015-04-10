@@ -23,7 +23,7 @@ Strand|Blood Meridian
 Macy's|Button Down Shirt
 Community Books|The Last Tycoon
 
-All the attributes from all purchases made at Toys R Us
+Q. All the attributes from all purchases made at Toys R Us
 
 Command : SELECT * FROM receipts WHERE store = "Toys R Us";
 
@@ -31,9 +31,13 @@ Command : SELECT * FROM receipts WHERE store = "Toys R Us";
 3|Toys R Us|TMNT Collectors Set|1|25|January 21 2014
 
 
-The item name of each purchase made at Strand.
-**answer**
-The total number of items Peter purchased
+Q. The item name of each purchase made at Strand.
+
+Command : SELECT item  FROM receipts WHERE store = "Strand";
+
+Blood Meridian
+
+Q. The total number of items Peter purchased
 **answer**
 The total number of items purchased at Sears
 **answer**
