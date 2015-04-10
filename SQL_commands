@@ -38,9 +38,22 @@ Command : SELECT item  FROM receipts WHERE store = "Strand";
 Blood Meridian
 
 Q. The total number of items Peter purchased
-**answer**
-The total number of items purchased at Sears
-**answer**
+command : SELECT number_of_item  FROM receipts;
+
+1
+1
+1
+1
+3
+3
+1
+
+Q. The total number of items purchased at Sears
+
+Command : SELECT number_of_items  FROM receipts WHERE store = "Sears";
+1
+1
+
 All the attributes of receipts where Peter bought multiple items.
 **answer**
 The average number of items purchased on a trip to JC Penny
