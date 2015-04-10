@@ -54,9 +54,19 @@ Command : SELECT number_of_items  FROM receipts WHERE store = "Sears";
 1
 1
 
-All the attributes of receipts where Peter bought multiple items.
-**answer**
-The average number of items purchased on a trip to JC Penny
-**answer**
-Great, now add a new receipt representing the purchase of a single "Heatstreet Maple Bourbon", purchased for $40.99 at "Schnapps Haus" on the most recent fourth of July.
-**answer**
+Q. All the attributes of receipts where Peter bought multiple items.
+
+Command : SELECT * FROM receipts WHERE number_of_items > 1;
+
+5|Strand|Blood Meridian|3|12|March 21 2014
+6|Macy's|Button Down Shirt|3|28.5|March 22 2014
+
+
+Q. The average number of items purchased on a trip to JC Penny
+Ans : My file became read only and couldn't change to read and write.
+
+Q. Great, now add a new receipt representing the purchase of a single "Heatstreet Maple Bourbon", purchased for $40.99 at "Schnapps Haus" on the most recent fourth of July.
+Ans :  My file became read only and couldn't change to read and write.
+
+
+
