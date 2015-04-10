@@ -12,11 +12,25 @@ Command : SELECT * FROM receipts;
 6|Macy's|Button Down Shirt|3|28.5|March 22 2014
 7|Community Books|The Last Tycoon|1|14|March 21 2014
 
+Q. The store and item names from all the receipts
 
-The store and item names from all the receipts
-**answer**
+Command : SELECT store, item FROM receipts
+
+Toys R Us|XBox One
+Toys R Us|TMNT Collectors Set
+Sears|Lego Set
+Strand|Blood Meridian
+Macy's|Button Down Shirt
+Community Books|The Last Tycoon
+
 All the attributes from all purchases made at Toys R Us
-**answer**
+
+Command : SELECT * FROM receipts WHERE store = "Toys R Us";
+
+2|Toys R Us|XBox One|1|500|January 21 2014
+3|Toys R Us|TMNT Collectors Set|1|25|January 21 2014
+
+
 The item name of each purchase made at Strand.
 **answer**
 The total number of items Peter purchased
