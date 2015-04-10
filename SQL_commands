@@ -1,1 +1,31 @@
 Command : CREATE TABLE receipts (id INTEGER PRIMARY KEY, store TEXT, item TEXT, number_of_items INTEGER, price INTEGER, buy_date INTEGER);
+
+Q. All the attributes from all the receipts :
+
+Command : SELECT * FROM receipts;
+
+1|Sears|PS4|1|400|January 21 2014
+2|Toys R Us|XBox One|1|500|January 21 2014
+3|Toys R Us|TMNT Collectors Set|1|25|January 21 2014
+4|Sears|Lego Set|1|40|January 21 2014
+5|Strand|Blood Meridian|3|12|March 21 2014
+6|Macy's|Button Down Shirt|3|28.5|March 22 2014
+7|Community Books|The Last Tycoon|1|14|March 21 2014
+
+
+The store and item names from all the receipts
+**answer**
+All the attributes from all purchases made at Toys R Us
+**answer**
+The item name of each purchase made at Strand.
+**answer**
+The total number of items Peter purchased
+**answer**
+The total number of items purchased at Sears
+**answer**
+All the attributes of receipts where Peter bought multiple items.
+**answer**
+The average number of items purchased on a trip to JC Penny
+**answer**
+Great, now add a new receipt representing the purchase of a single "Heatstreet Maple Bourbon", purchased for $40.99 at "Schnapps Haus" on the most recent fourth of July.
+**answer**
